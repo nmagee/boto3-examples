@@ -2,9 +2,7 @@
 
 import boto3
 
-
 sqs = boto3.client('sqs')
-
 
 def check_message_count():
     response = sqs.get_queue_attributes(

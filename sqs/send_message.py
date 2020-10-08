@@ -2,7 +2,6 @@
 
 import boto3
 
-
 sqs = boto3.client('sqs')
 
 response = sqs.send_message(
@@ -15,5 +14,4 @@ response = sqs.send_message(
         }
     }
 )
-
 print(response)
