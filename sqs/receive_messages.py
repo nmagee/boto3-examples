@@ -45,7 +45,7 @@ def get_message():
       print("MessageID: " + messageid)
       # print("Handle: " + handle)
       print("Project: " + project)
-      # print(response)
+      print(response)
       delete_message(handle)
     except:
         print("Nothing to see here")
