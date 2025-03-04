@@ -1,3 +1,3 @@
-# boto3 examples
+# boto3-examples
 
-AWS service snippets for CS4740.
+Resources in this repository have moved to [**aws-snippets**](https://github.com/nmagee/aws-snippets/).
